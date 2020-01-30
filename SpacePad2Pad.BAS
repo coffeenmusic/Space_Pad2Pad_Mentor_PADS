@@ -1,11 +1,8 @@
 ' Description
-
-' Useful commands
-' ProcessParameter(45 , "w")
-' ActiveDocument.SelectObjects(Type:=_, value:=_, Select:=_)
-' SendKeys "{Home}+{End}"
-
-' Public Const spacing = 40
+' Select a pin and a component, select the axis, set the spacing, hit OK
+' The spacing entered in the GUI will move the component so
+' the pin to components's closest pad (copper to copper) equals that spacing.
+' To clarify, this is copper to copper not center to center
 
 Dim axis As String
 Dim selection(100) As String
